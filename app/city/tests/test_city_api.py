@@ -21,5 +21,3 @@ def create_city(user, **params):
     city = City.objects.create(user=user, **defaults)
     return city
 
-
-def 
